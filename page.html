@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+    	<link rel="Stylesheet" href="Style.css">
+		<script src="Jscode.js"></script>
+
+</head>
+
+<body>
+    
+    <table>
+		<tr frame="border"></tr>
+			<td width = "300" ><h3>List of Persons</h3></td>
+			<td ><h3>Add / Update Person Form</h3></td>
+		</tr>
+		<tr width="400px" frame="border" border-color=black>
+			<td width="400px" valign='top'>
+				<table id="table2" width="400px" valign='top'>
+					<tr>
+						<th>Name</th>
+						<th>Gender</th>
+						<th>Age</th>
+						<th>City</th>
+						<th>Action</th>
+					</tr>
+				</table>
+			</td>
+			<td id='form'>
+				<form>
+					<br>
+					Name:
+					<input id='name' type="text" placeholder="Name"><br><br>
+					Gender:
+					Male:<input id="m" name='gender' type="radio" value="Male">
+					Female:<input id="f" name='gender'type="radio" value="Female"><br><br>
+					Age:
+					<input id='age' type="number" placeholder="Age" min="18" max="25"><br><br>
+					City:
+					<select id='city'>
+						<option value=""></option>
+						<option>Abbotabat</option>
+						<option>Vehari</option>
+						<option>Lahore</option>
+						<option>Karachi</option>
+						<option>Quetta</option>
+						<option>Islamabad</option>
+						<option>Rawalpindi</option>
+						<option>Peshawar</option>
+						<option>Gujranwala</option>
+						<option>Faisalabad</option>
+						<option>Kasur</option>
+						<option>Pattoki</option>
+					</select><br><br>
+					<input type="Reset" id="reset" onclick="">
+					<input type="button" value="Add" id="add" onclick="generateTable()">
+					<input type="button" value="Update" id="update" onclick="Re_update()">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+#form {
+    border: 1px dotted black;
+    padding: 20px;
+    background: #cecccc;
+    width: 300px;
+
+
+}
+table tr td table{
+
+    border: 2px solid black;
+    background: #cecccc;
+}
+#table2 td{
+    text-align: center;
+}
